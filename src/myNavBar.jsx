@@ -1,11 +1,12 @@
 import React from "react";
+import SearchBar from './searchBar';
 
 class MyNavBar extends React.Component {
   render() {
-    return (
+    return (        
       <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a className="navbar-brand" href="/#">
-          Smart Apprentices Message Viewer
+          Data Capture Example
         </a>
         <button
           className="navbar-toggler"
@@ -33,7 +34,7 @@ class MyNavBar extends React.Component {
               <a
                 className="nav-link disabled"
                 href="#"
-                tabindex="-1"
+                tabIndex="-1"
                 aria-disabled="true"
               >
                 Disabled
@@ -61,20 +62,7 @@ class MyNavBar extends React.Component {
                 </a>
               </div>
             </li>
-          </ul>
-          <form className="form-inline my-2 my-lg-0 search-form">
-            <input
-              className="form-control mr-sm-6 rounded-left-border"
-              type="text"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button
-              className="btn btn-success my-2 my-sm-0 rounded-right-border"
-              type="submit">
-              Search
-            </button>
-          </form>
+          </ul>          
         </div>
       </nav>
     );

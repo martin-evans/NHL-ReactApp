@@ -49,8 +49,6 @@ table, td {
   padding: 2px 2px
 }
 
-.search-form input { width: 350px!important;}
-
 .rounded-right-border {   
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -59,4 +57,36 @@ table, td {
 .rounded-left-border {   
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+}
+.content {
+  position: relative;  
+  background-image: url('./images/intl.jpg');  
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  padding-top: 12rem;
+  padding-bottom: 12rem;    
+}
+
+.content div {      
+  text-align: center;
+}
+
+.foo {
+  max-width: 40rem;
+  margin:auto;
+  background-color:rgba(137, 197, 199,0.5);  
+  padding : 1rem 1rem;
+  color: lightyellow;
+  border-radius: 12px;
+  padding-bottom: 2rem;
+  
+}
+
+.search-form input { 
+    min-width: 85%;
+}
+
+.search-form button {   
+  min-width: 15%;
 }
